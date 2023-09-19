@@ -1,0 +1,87 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center the login form vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 300px;
+  background-image: url('https://img.freepik.com/free-vector/t-shirt-design-funky-baba-yogi-holding-joint-cigarette-vector-illustration_460848-9335.jpg?size=626&ext=jpg&ga=GA1.1.1864005055.1695115083&semt=ais');
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: 90ex;
+
+
+}
+
+
+/* Style the login container */
+.login-container {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Style the login form header */
+.login-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style form fields and labels */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Style the login button */
+.login-button {
+  background: linear-gradient(to bottom, #ae1409, #ef7b15);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background: linear-gradient(to bottom, #ae1409, #ef7b15);
+}
+
+/* Additional styling for the form footer */
+.form-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+.line{
+  text-decoration: none;
+}
