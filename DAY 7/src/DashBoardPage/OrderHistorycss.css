@@ -1,0 +1,173 @@
+.sidebar0 {
+  background-color: #333;
+  color: #fff;
+  width: 70px; /* Narrow sidebar */
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sidebar0.open {
+  width: 200px; /* Expanded sidebar */
+}
+
+.sidebar0 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar0 li {
+  margin-bottom: 10px;
+}
+
+.sidebar0 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.sidebar0 a:hover {
+  color: #ee821d; /* Change the font color on hover */
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e5e7;
+  border-bottom: 1px solid #555; /* Add border at the bottom of the icon */
+  margin-bottom: auto; /* Push the toggle icon to the top */
+  margin-top: 80px; /* Adjust for the navbar height */
+  right: 0; /* Align to the right */
+}
+
+.toggle-icon {
+  font-size: 24px;
+  color: #ee821d;
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+
+.toggle-icon.open {
+  transform: rotate(180deg);
+}
+.navbar3 {
+  background-color: #333; /* Darker background */
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar3 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Vertically center the items */
+}
+
+.navbar3 li {
+  font-weight: 600;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.navbar3 a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar3 li:hover {
+  transform: translateY(-3px); /* Slight upward lift on hover */
+}
+
+.navbar3 a:hover {
+  color: #ee821d; /* Change to a lighter blue on hover */
+}
+.order-history {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 120px;
+  margin-left: 85px;
+}
+
+.order-history-header {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table th,
+.order-table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #f5f5f5;
+}
+
+.order-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.order-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+/* OrderHistorycss.css */
+
+/* Style for the search bar container */
+.search-bar {
+  margin-bottom: 20px; /* Add spacing at the bottom of the search bar */
+}
+
+/* Style for the input element */
+.search-bar input[type="text"] {
+  width: 100%; /* Take up the entire width of the container */
+  padding: 10px; /* Add padding to the input field */
+  font-size: 16px; /* Set the font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Add rounded corners */
+  outline: none; /* Remove the input field outline */
+  transition: border-color 0.3s ease-in-out; /* Add a transition effect to the border color */
+}
+
+/* Style for the input element on focus */
+.search-bar input[type="text"]:focus {
+  border-color: #1d2023; /* Change the border color on focus */
+}
+.navbar3 p{
+  position: relative;
+  right: 820px;
+  position: fixed;
+    font-size: 20px;
+    color: white;
+  }

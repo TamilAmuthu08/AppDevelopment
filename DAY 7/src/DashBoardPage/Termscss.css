@@ -1,0 +1,76 @@
+/* TermsAndConditions.css */
+
+/* Style the main Terms and Conditions container */
+.terms-and-conditions {
+  max-width: 1500px;
+  max-height: 900px;
+  margin: 0 auto;
+  padding: 100px;
+  background-color: rgba(255, 255, 255); /* Adjust the opacity here */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style section headers */
+.terms-and-conditions h1, .terms-and-conditions h2 {
+  color: #333;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+/* Style the paragraphs */
+.terms-and-conditions p {
+  margin-bottom: 15px;
+}
+
+/* Style the unordered list */
+.terms-and-conditions ul {
+  margin-left: 20px;
+}
+
+/* Style list items */
+.terms-and-conditions li {
+  margin-bottom: 5px;
+}
+
+/* Style the contact information section */
+.terms-and-conditions .contact-info {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  font-style: italic;
+}
+
+/* Style FontAwesome icons */
+.terms-and-conditions .fa-check-circle {
+  color: green;
+  margin-right: 5px;
+}
+
+.terms-and-conditions .fa-exclamation-circle {
+  color: red;
+  margin-right: 5px;
+}
+
+/* Style the company logo */
+.terms-and-conditions .logo-image {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Adjust spacing for smaller screens */
+@media (max-width: 768px) {
+  .terms-and-conditions .aa,
+  .terms-and-conditions .bb,
+  .terms-and-conditions .cc {
+    margin: 10px;
+  }
+
+  .terms-and-conditions h1 {
+    font-size: 20px;
+  }
+
+  /* Adjust other responsive styles as needed */
+}
