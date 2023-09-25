@@ -1,0 +1,91 @@
+/* Reset default margin and padding */
+.login-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background image for the entire application */
+/* body{
+  background-image: url('https://methodprinting.com/wp-content/uploads/2019/08/Method-Printing-Custom-T-Shirt-Printing-Banner.jpg');
+
+} */
+
+/* Style the login container */
+.login-container {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto; /* Center the container horizontally */
+  margin-top: 10vh; /* Center the container vertically */
+}
+
+/* Style the login form header */
+.login-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style form fields and labels */
+.form-group1 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Style the login button */
+.login-button {
+  background: linear-gradient(to bottom, #0943ae, #1582ef);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background: linear-gradient(to bottom, #0943ae, #1582ef);
+}
+
+/* Additional styling for the form footer */
+.form-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Style links within the form */
+.line2 {
+  text-decoration: none;
+
+}
+.line22 {
+  text-decoration: none;
+ color: white;
+}
