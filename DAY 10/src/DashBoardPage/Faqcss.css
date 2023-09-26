@@ -1,0 +1,35 @@
+/* FAQ.css */
+
+.faq {
+
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Set your desired background color */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0);
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.faq h1 {
+  color: #333;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.faq-item h2 {
+  color: #555;
+  margin-top: 10px;
+}
+
+.faq-item p {
+  margin-bottom: 15px;
+}

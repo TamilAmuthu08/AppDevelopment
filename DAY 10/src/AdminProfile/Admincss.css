@@ -1,0 +1,321 @@
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar5 {
+  background-color: #333; /* Darker background */
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar5 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Vertically center the items */
+}
+
+.navbar5 li {
+  font-weight: 600;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.navbar5 a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar5 li:hover {
+  transform: translateY(-3px); /* Slight upward lift on hover */
+}
+
+.navbar5 a:hover {
+  color: #ee821d; /* Change to a lighter blue on hover */
+}
+
+
+/* Sidebar styles */
+.sidebar5 {
+  background-color: #333;
+  color: #fff;
+  width: 70px; /* Narrow sidebar */
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sidebar5.open {
+  width: 200px; /* Expanded sidebar */
+}
+
+.sidebar5 ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.sidebar5 li {
+  margin-bottom: 10px;
+}
+
+.sidebar5 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.sidebar5 a:hover {
+  color: #ee821d; /* Change the font color on hover */
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e5e7;
+  border-bottom: 1px solid #555; /* Add border at the bottom of the icon */
+  margin-bottom: auto; /* Push the toggle icon to the top */
+  margin-top: 80px; /* Adjust for the navbar height */
+  right: 0; /* Align to the right */
+}
+
+.toggle-icon {
+  font-size: 24px;
+  color: #ee821d;
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+
+.toggle-icon.open {
+  transform: rotate(180deg);
+}
+.admin-profile{
+  margin-left: 80px; /* Adjust for the sidebar width */
+  padding: 20px;
+  background-color: #fff; /* White content background */
+  margin-top: 80px; /* Adjust for the navbar height */
+  width: 1331px;
+}
+/* Admin Profile Styles */
+
+
+.admin-profile h1 {
+  font-size: 24px;
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+
+
+
+.admin-details div {
+  text-align: left;
+}
+
+.admin-details h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+.admin-details p {
+  font-size: 16px;
+  color: #666; /* Slightly darker text color */
+}
+/* Admin Profile Styles */
+.admin-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  margin-top: 120px;
+}
+
+.admin-profile h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-details {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.profile-picture .dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  width: 250px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.profile-picture p {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  max-height: 260px;
+
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.admin-details div {
+  text-align: left;
+  
+}
+
+.admin-details h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+
+}
+
+.admin-details p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+.uploaded-image-container {
+  width: 100%;
+  height: 100%;
+  overflow:auto;
+  border-radius: 100%; /* Round shape for the container */
+}
+
+
+/* CSS */
+.round-dropzone {
+  width: 150px; /* Set the width and height to your desired dimensions */
+  height: 150px;
+  border: 2px dashed #ccc;
+  border-radius: 50%; /* Make it round */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide any overflow content */
+  cursor: pointer;
+}
+
+.uploaded-image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%; /* Round shape for the container */
+}
+
+.uploaded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Autofit the image within the round container */
+  border-radius: 50%; /* Round shape for the image */
+}
+
+
+/* Admin.css (or your external CSS file) */
+/* Style the Edit button */
+.editadmin-button {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  margin-top: 20px;
+  /* Add more styles as needed */
+}
+
+/* Style the Edit button on hover */
+.editadmin-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* Style the edit input fields */
+.edit-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none; /* Remove outline when focused */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.edit-input:focus {
+  border-color: #007bff; /* Highlight border when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow when focused */
+}
+
+/* Style the "Save" button */
+.saveadmin-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.saveadmin-button:hover {
+  background-color: #0056b3;
+}
+
+.arrange{
+  margin-top: 20px;
+  text-align: center;
+}
+.navbar5 p{
+  position: relative;
+  font-size: 20px;
+  right: 830px;
+  color: white;
+  position: fixed;
+}

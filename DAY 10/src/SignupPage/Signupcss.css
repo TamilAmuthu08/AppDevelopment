@@ -1,0 +1,56 @@
+/* Use the same CSS code as the login page with modifications */
+
+/* Style the signup container */
+.signup-container {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+  margin: 0 auto; /* Center the container horizontally */
+  margin-top: 10vh; /* Center the container vertically */
+  text-align: left;
+}
+
+/* Style the signup form header */
+.signup-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Style the signup button */
+.signup-button {
+  background: linear-gradient(to bottom, #0943ae, #1582ef);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 15px;
+ 
+}
+
+.signup-button:hover {
+  background: linear-gradient(to bottom, #0943ae, #1582ef);
+}
+
+/* Style links within the signup form */
+.line1 {
+  text-decoration: none;
+  
+}
+.line11 {
+  text-decoration: none;
+  color: #fff;
+}
+.form-group{
+  margin-top: 30px;
+}
+.allign{
+  text-align: center;
+}
