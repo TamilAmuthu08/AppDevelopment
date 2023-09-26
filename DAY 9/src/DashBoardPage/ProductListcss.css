@@ -1,0 +1,354 @@
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sidebar00 {
+  background-color: #333;
+  color: #fff;
+  width: 70px; /* Narrow sidebar */
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sidebar00.open {
+  width: 200px; /* Expanded sidebar */
+}
+
+.sidebar00 ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.sidebar00 li {
+  margin-bottom: 10px;
+}
+
+.sidebar00 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.sidebar00 a:hover {
+  color: #ee821d; /* Change the font color on hover */
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e5e7;
+  border-bottom: 1px solid #555; /* Add border at the bottom of the icon */
+  margin-bottom: auto; /* Push the toggle icon to the top */
+  margin-top: 80px; /* Adjust for the navbar height */
+  right: 0; /* Align to the right */
+}
+
+.toggle-icon {
+  font-size: 24px;
+  color: #ee821d;
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+
+.toggle-icon.open {
+  transform: rotate(180deg);
+}
+.container {
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+/* Transparent Container */
+.transparent-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity (fourth value) as needed */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Rest of your existing CSS styles for product cards */
+/* ... */
+
+
+/* Title */
+.title {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  
+}
+
+/* Product List */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Product Card */
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 30px;
+  position: relative;
+  padding-left: 55px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* Product Image */
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Product Name */
+.product-name {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+/* Product Features */
+.product-features {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+.navbar4 {
+  background-color: #333; /* Darker background */
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar4 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Vertically center the items */
+}
+
+.navbar4 li {
+  font-weight: 600;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.navbar4 a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar4 li:hover {
+  transform: translateY(-3px); /* Slight upward lift on hover */
+}
+
+.navbar4 a:hover {
+  color: #ee821d; /* Change to a lighter blue on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Add space between the buttons */
+  margin-top: 20px;
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #ff9514; /* Red color for the button */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  
+}
+
+.delete-button:hover {
+  background-color: #e08312; /* Darker red color on hover */
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #299e41; /* Green color for the button */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  margin-top: 20px;
+  margin-left: 29px;
+}
+
+.edit-button:hover {
+  background-color: #27c90f; /* Darker green color on hover */
+}
+
+/* Add Button */
+.add-button {
+  background-color: #007bff; /* Blue color for the button */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  margin-top: 20px;
+}
+
+.add-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Save Button */
+.save-button {
+  background-color: #007bff; /* Blue color for the button */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  margin-top: 20px;
+}
+
+.save-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Cancel Button */
+.cancel-button {
+  background-color: #dc3545; /* Red color for the button */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cancel-button:hover {
+  background-color: #c82333; /* Darker red color on hover */
+}
+
+/* ... (rest of the CSS styles) */  
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+.modal label {
+  font-weight: 500; /* Medium font weight */
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Dark text color */
+}
+
+.modal input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.modal button.save-button {
+  background-color: #1382f9; /* Blue color for the Save button */
+  color: #fff; /* White text color */
+}
+
+.modal button.save-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.modal button.cancel-button {
+  background-color: #dc3545; /* Red color for the Cancel button */
+  color: #fff; /* White text color */
+}
+
+.modal button.cancel-button:hover {
+  background-color: #c82333; /* Darker red color on hover */
+}
+.navbar4 p{
+  position: relative;
+  right: 830px;
+  position: fixed;
+   font-size: 20px;
+   color: white;
+ }
