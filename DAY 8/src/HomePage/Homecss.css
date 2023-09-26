@@ -1,0 +1,174 @@
+/* General styles */
+.homepage {
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f5f5f5;
+  
+}
+
+
+.navbar1 {
+  background-color: #333; /* Darker background */
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Vertically center the items */
+}
+
+.navbar1 li {
+  font-weight: 600;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.navbar1 a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar1 li:hover {
+  transform: translateY(-3px); /* Slight upward lift on hover */
+}
+
+.navbar1 a:hover {
+  color: #ee821d; /* Change to a lighter blue on hover */
+}
+
+/* Sidebar styles */
+.sidebar1 {
+  background-color: #333;
+  color: #fff;
+  width: 70px; /* Narrow sidebar */
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sidebar1.open {
+  width: 200px; /* Expanded sidebar */
+}
+
+.sidebar1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar1 li {
+  margin-bottom: 10px;
+}
+
+.sidebar1 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.sidebar1 a:hover {
+  color: #ee821d; /* Change the font color on hover */
+}
+
+/* Sidebar Toggle Button */
+.sidebar1-toggle {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e5e7;
+  border-bottom: 1px solid #555; /* Add border at the bottom of the icon */
+  margin-bottom: auto; /* Push the toggle icon to the top */
+  margin-top: 80px; /* Adjust for the navbar height */
+  right: 0; /* Align to the right */
+}
+
+.toggle-icon {
+  font-size: 24px;
+  color: #ee821d;
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+
+.toggle-icon.open {
+  transform: rotate(180deg);
+}
+
+/* Content styles */
+.content1 {
+  margin-left: 80px; /* Adjust for the sidebar width */
+  padding: 20px;
+  background-color: #fff; /* White content background */
+  margin-top: 120px; /* Adjust for the navbar height */
+  width: 1331px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 16px;
+}
+
+
+.logo-container {
+  
+  margin-right: 800px;
+  
+}
+
+.logo-container img {
+  width: 150px; /* Adjust the width as needed */
+  height: auto;
+}
+/* Example CSS for button styling */
+.cta-button {
+  text-align: center;
+  margin-top: 30px;
+ 
+
+}
+
+.btn-primary {
+  background-color: #ee821d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.btn-primary:hover {
+  background-color: #b35700;
+}
+.navbar1 p{
+  position: relative;
+  right: 900px;
+  position: fixed;
+  color: white;
+   font-size: 20px;
+ }
+ 
